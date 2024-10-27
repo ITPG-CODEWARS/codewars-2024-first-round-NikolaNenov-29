@@ -1,0 +1,179 @@
+body
+
+{
+      background-image: url(train_resolution.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+#Welcoming 
+{
+      text-align: center;
+      text-shadow: 3px 3px 2px rgb(10, 230, 255), -3px -3px 2px hsla(0, 92%, 48%, 0.662);
+}
+
+
+
+#navbar ul
+{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+
+#navbar a 
+{
+      color: white;
+      padding: 20px;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      position: relative;
+}
+
+
+#navbar li
+{
+      float: left;
+      position: relative;
+}
+
+#navbar a:hover 
+{
+      background-color: black;
+      color: yellow;
+      transition: background-color 1s, color 1s;
+      position: relative;
+}
+
+#Welcoming::first-letter
+{
+      font-size: 2em;
+      font-style: italic;
+}
+
+
+#text
+{
+      background-color: beige;
+}
+
+#BrightLine-img
+{
+      float: left;
+}
+
+
+button
+{
+      width: 600px;
+      height: 150px;
+      box-shadow: 15px 10px 7px;
+}
+
+button:hover
+{
+      background-color:tomato ;
+      border: 2px dashed  rgb(204, 255, 37);
+      transition: background-color 3s;
+      transition: border 1s;
+}
+
+#brightlinegif
+{
+      border: 5px dashed rgb(204, 255, 37);
+}
+
+#text_BrighLine 
+{
+      border: 5px dashed rgb(204, 255, 37);
+      color: rgb(204, 255, 37);
+}
+
+#whooshgif
+{
+      border: 5px dashed rgb(204, 255, 37);
+}
+
+#whoosh_text
+{
+      border: 5px dashed rgb(204, 255, 37);
+      color: rgb(204, 255, 37);
+}
+
+
+#amtrakacelagif
+{
+      border: 5px dashed rgb(204, 255, 37);
+}
+
+#amtrakacelatext
+{
+      border: 5px dashed rgb(204, 255, 37);
+      color: rgb(204, 255, 37);
+}
+
+#orientimg{
+      border: 5px dashed rgb(204, 255, 37);
+}
+
+#orienttxt{
+      border: 5px dashed rgb(204, 255, 37);
+      color: rgb(204, 255, 37);
+}
+
+#shinkasenimg{
+      border: 5px dashed rgb(204, 255, 37);
+}
+
+#shinkasentxt{
+      border: 5px dashed rgb(204, 255, 37);
+      color: rgb(204, 255, 37);
+}
+
+#flyingscotsmanimg{
+      border: 5px dashed rgb(204, 255, 37);
+}
+
+#flyingscotsmantxt{
+      border: 5px dashed rgb(204, 255, 37);
+      color: rgb(204, 255, 37);
+}
+
+#orientexpressgif{
+      border: 5px dashed rgb(188, 0, 0);      
+}
+
+#orientexpressgiftext{
+      border: 5px dashed rgb(188, 0, 0);
+      color: rgb(188, 0, 0);
+      background-color: chocolate;
+}
+
+#shinkasengif{
+      border: 5px dashed rgb(188, 0, 0);
+}
+
+#shinkasengiftext{
+      border: 5px dashed rgb(188, 0, 0);
+      color: rgb(188, 0, 0);
+      background-color: chocolate;
+}
+
+#flyingscotsmangif{
+      border: 5px dashed rgb(188, 0, 0);
+}
+
+#flyingscotsmangiftext{
+      border: 5px dashed rgb(188, 0, 0);
+      color: rgb(188, 0, 0);
+      background-color: chocolate;
+}
